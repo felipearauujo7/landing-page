@@ -172,6 +172,7 @@ section {
 }
 
 #asidedashboard {
+    margin-top: 20px;
     border-radius: 10px 10px 0px 0px;
     padding: 50px;
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor5), white 95%);
