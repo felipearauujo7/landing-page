@@ -98,23 +98,12 @@ section {
     padding: 20px;
 }
 
-section article {
+/* section article {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 30px;
-}
-
-section article h2 {
-    flex: 1;
-    padding-right: 20px;
-}
-
-.parteiphone {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+} */
 
 .começar {
     background-color: var(--cor0);
@@ -128,10 +117,29 @@ section article h2 {
     border-radius: 8px;
 }
 
+.parteiphone {
+    text-align: center;
+}
+
+#textoiphone {
+    display: block;
+}
+
 #imagemiphone {
-    flex: 1;
-    width: 100%;
-    max-width: 400px;
+    display: block;
+}
+
+@media (min-width: 600px) {
+    #textoiphone,
+    #imagemiphone {
+        display: inline-block;
+        margin: auto;
+    }
+    #textoiphone {
+        position: relative;
+        top: -100px;
+        margin-top: 100px;
+    }
 }
 
 #dashboard {
@@ -157,8 +165,31 @@ section article h2 {
     font-weight: bold;
 }
 
+#imagensdashboard {
+    text-align: center;
+}
+
+#imgdash1 {
+    display: block;
+}
+
 #imgdash2 {
-    padding-bottom: 190px;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.699);
+}
+
+@media (min-width: 1216px) {
+    #imgdash1,
+    #imgdash2 {
+        display: inline-block;
+        margin: auto;
+    }
+    #imgdash2 {
+        position: relative;
+        top: -190px;
+    } 
 }
 
 #asidediferencial {
