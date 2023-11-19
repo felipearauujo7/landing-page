@@ -167,8 +167,8 @@ section {
 }
 
 #h2dashboard {
-    color: var(--cor0);
     padding-bottom: 10px;
+    color: black;
 }
 
 #asidedashboard {
@@ -182,8 +182,8 @@ section {
 #asidedashboard ul {
     list-style-position: inside;
     columns: 1;
-    color: var(--cor1);
-    font-weight: bold;
+    color: black;
+    font-weight: 600;
 }
 
 #imagensdashboard {
