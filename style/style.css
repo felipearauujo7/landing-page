@@ -241,4 +241,36 @@ section {
     padding: 50px;
 }
 
+.footer-container {
+    background-color: #303030;
+    padding: 10px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
 
+.footer-info {
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.info-group {
+    padding: 10px;
+}
+
+footer a {
+    color: rgb(116, 116, 116);
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer img {
+    max-width: 80%;
+}
+
+footer p {
+    background-color: #303030;
+    border-top: 1px solid black;
+}
